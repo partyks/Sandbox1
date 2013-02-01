@@ -12,7 +12,7 @@ import java.util.Map;
  */
 public class Main {
     private static final SessionFactory ourSessionFactory;
-
+    //ala ma kota
     static {
         try {
             ourSessionFactory = new Configuration().addResource("hibernate.cfg.xml").buildSessionFactory();
